@@ -17,7 +17,7 @@
                 <div class ="panel-body">
                 <div><b>{{(key+1)}}-{{eachPost.title}}</b></div>
                 <div class="commonTextIndent">{{eachPost.body}}</div>
-                <hr>
+                <div class="griditem"></div>
                 <div ng-repeat="(index,eachComment) in commentsData track by $index">
                     <div ng-if="eachPost.id===eachComment.postId">
                         <div><b>{{eachComment.name}}</b></div>

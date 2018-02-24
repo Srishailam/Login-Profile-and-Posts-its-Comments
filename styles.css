@@ -56,3 +56,15 @@ body {
     text-align: center;
 }
 .loginBtn{margin-top: 10px;}
+ .griditem{
+     display: inline-block;
+     border: 1px solid black;
+     width: 103.4%;
+     height: 1px;
+     margin: 0 15px;
+     margin-left: -1.72% 
+}
+ .display-ilb{
+     display: inline-block;
+     margin: 0 5px;
+}
